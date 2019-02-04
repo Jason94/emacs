@@ -109,6 +109,9 @@
                (enh-ruby-op-face :foreground ,keyword)
                (enh-ruby-regexp-delimiter-face :foreground ,str)
                (enh-ruby-string-delimiter-face :foreground ,str)
+               ;; ERC
+               (erc-input-face :foreground ,key3)
+               (erc-my-nick-face :foreground ,func :bold t)
                ;; font-latex
                (font-latex-bold-face :foreground ,type)
                (font-latex-italic-face :foreground ,key3 :italic t)
